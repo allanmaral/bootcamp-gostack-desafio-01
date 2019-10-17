@@ -25,4 +25,4 @@ module.exports = {
     Project.deleteAt(id);
     return res.send();
   }
-}
+};

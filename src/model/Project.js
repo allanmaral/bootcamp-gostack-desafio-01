@@ -1,6 +1,8 @@
+let static_data = [];
+
 class Project {
   constructor() {
-    this.data = [];
+    this.data = static_data;
   }
 
   create(id, title) {
