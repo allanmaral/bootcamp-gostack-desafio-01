@@ -9,6 +9,7 @@ class Project {
       title,
       tasks: []
     });
+    return this.data[this.data.length - 1];
   };
 
   find(id) {
@@ -35,6 +36,7 @@ class Project {
       if (tasks) {
         this.data[index].tasks.push(tasks);
       }
+      return this.data[index];
     }
   };
 };
